@@ -16,4 +16,8 @@ body{
     color: #E76F51;
 }
 
+.img-gray{
+    filter: grayscale(100%);
+}
+
 
