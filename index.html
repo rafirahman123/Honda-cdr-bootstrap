@@ -14,6 +14,11 @@
 
     <!-- Font awesome cdn  -->
     <script src="https://kit.fontawesome.com/f6b312173b.js" crossorigin="anonymous"></script>
+
+    <!-- Googlefont link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +48,7 @@
                                 <a class="nav-link" href="#">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn btn-warning">Warning</button>
+                                <button type="button" class="btn honda-btn text-white">Login</button>
                             </li>
 
                         </ul>
@@ -66,7 +71,35 @@
                             Velit officia consequat
                             duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                        <button type="button" class="btn btn-primary">Purchase</button>
+                        <div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn honda-btn text-white " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Ready for purchase</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, quidem!
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn honda-btn">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-lg-6 py-5">
@@ -89,7 +122,7 @@
         <section class="container p-5 mb-5">
             <div class="text-center">
                 <h1 class="fw-bold">Fetured Bikes 2021</h1>
-                <p>Best bike collection</p>
+                <p class="honda-text">Best bike collection</p>
             </div>
 
             <div class="row p-5">
@@ -130,7 +163,7 @@
                         </div>
                         <div class=" justify-content-start align-items-center p-3">
 
-                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -147,7 +180,7 @@
                         </div>
                         <div class=" justify-content-start align-items-center p-3">
 
-                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -164,7 +197,7 @@
                         </div>
                         <div class=" justify-content-start align-items-center p-3">
 
-                            <button type="button" class="btn btn-primary">Buy Now</button>
+                            <button type="button" class="btn honda-btn text-white">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -176,8 +209,8 @@
 
         <!-- Happy client section start -->
         <section class="container mb-5 p-5">
-            <div class="text-center">
-                <h1 class="fw-bold ">Happy <span class="client text-warning">Clients says</span></h1>
+            <div class="text-center mb-5">
+                <h1 class="fw-bold ">Happy <span class="honda-text">Clients says</span></h1>
             </div>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -189,8 +222,10 @@
                             <p class="card-text">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
-                                goal for the month and year.</p>
-                            <div class="text-center">
+                                goal for the month and year.
+                            </p>
+
+                            <div class="text-center honda-text">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -198,8 +233,8 @@
                                 <i class="far fa-star"></i>
                             </div>
 
-                            <div class="text-center">
-                                <h6>Regina Miles</h6>
+                            <div class="text-center ">
+                                <h6 class="text-primary">Regina Miles</h6>
                                 <h6>Banker</h6>
                             </div>
                         </div>
@@ -215,7 +250,7 @@
                                 to work to reach your financial
                                 goal for the month and year.</p>
 
-                            <div class="text-center">
+                            <div class="text-center honda-text">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -224,7 +259,7 @@
                             </div>
 
                             <div class="text-center">
-                                <h6>Regina Miles</h6>
+                                <h6 class="text-primary">Regina Miles</h6>
                                 <h6>Banker</h6>
                             </div>
                         </div>
@@ -240,7 +275,7 @@
                                 to work to reach your financial
                                 goal for the month and year.</p>
 
-                            <div class="text-center">
+                            <div class="text-center honda-text">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -249,7 +284,7 @@
                             </div>
 
                             <div class="text-center">
-                                <h6>Regina Miles</h6>
+                                <h6 class="text-primary">Regina Miles</h6>
                                 <h6>Banker</h6>
                             </div>
 
@@ -268,7 +303,7 @@
         <!-- Quistion ask section start -->
         <section class="container">
             <div class="text-center">
-                <h1 class="fw-bold mb-5">Frequently Asked <span class="text-warning">Questions</span> </h1>
+                <h1 class="fw-bold mb-5">Frequently Asked <span class="honda-text">Questions</span> </h1>
             </div>
 
 
@@ -357,14 +392,78 @@
             </div>
         </section>
         <!-- Quistion ask section end -->
+
+        <!---------------------- Bonus section start------------------------>
+
+
+        <!-- Ofcanvas start -->
+
+        <section class="container">
+            <div class=" row py-4 m-5">
+                <div class="price1 col-sm border m-1 py-5 text-center border-light text-dark shadow">
+                    <h2 class="honda-text">PRO</h4>
+                        <h5 class="text-info">The All-Inclusive Plan</h5>
+                        <h3 class="honda-text">From $
+                            35
+                            /month</h3>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cumque!
+                            Manager.</h5>
+                </div>
+
+                <div class="price2 col-sm border m-1 py-5 text-center border-light text-dark shadow">
+
+                    <h2 class="honda-text">STARTER</h4>
+                        <h5 class="text-info">All the Essentials</h5>
+                        <h3 class="honda-text">From $
+                            9
+                            /month</h3>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quod.</h5>
+
+                </div>
+
+                <div class="row">
+                    <div class="col m-auto py-5 text-center">
+                        <h4>Read more about prices and compare the features included.</h4>
+
+                        <button type="button" class="btn honda-btn text-white">Primary</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Subcribe section in bonus start-->
+
+        <!-- Ofcanvas end -->
+
+        <section style="height: 300px;"
+            class="container-fluid Honda-bg d-flex justify-content-center align-items-center rounded-3" id="Subcribes">
+            <div>
+                <h1 class="honda-text">LET'S STAY IN TOUCH</h1>
+                <p class="text-primary">Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" placeholder="Your email"><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Feedback</label>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-info ">Secondary</button>
+            </div>
+        </section>
+        <!-- Subcribe section in bonus end -->
+
+
+
+        <!-- bonus section end -->
     </main>
 
 
     <!-- footer section start -->
 
-    <footer class="container-fluid bg-dark p-5">
+    <footer class="container-fluid bg-dark p-5 ">
 
-        <div class="row">
+        <div class="row align-items-center ">
             <div class="col-lg-8">
 
                 <span class="text-white">Download Now</span>&nbsp &nbsp &nbsp <span class="text-white">License</span>
@@ -385,6 +484,8 @@
     </footer>
 
     <!-- footer section ends -->
+
+
 
 
     <!-- Java script cdn -->
